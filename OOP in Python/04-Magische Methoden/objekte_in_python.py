@@ -15,6 +15,7 @@ print(type([1, 2].__add__([3, 4])))
 
 """
 Es sind Objekte. 
+__xx__ solche ...... sind bereits in Pyhon vorhanden, brauchen nicht neu definiert werden
 die __add__ erkennt also den Typ 
 automatisch, so programmiert in Python
 
