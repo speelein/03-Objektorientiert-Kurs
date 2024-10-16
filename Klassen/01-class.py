@@ -4,7 +4,7 @@ class Archer:
     def walk(self):
         print(f'ich bin {self}und laufe')
 
-print(Archer.hp())
+#print(Archer.hp())
 print(Archer.__dict__)
 print(type(Archer.__dict__))
 
