@@ -8,8 +8,8 @@ print((9).__add__ (3))
 print("ab".__add__("cd"))
 print([1, 2].__add__([3, 4]))
 
-
 print(type((9).__add__ (3)))
+print(type((9.1).__add__ (3.01))) # muessen vom gkeichen Typ sein
 print(type("ab".__add__("cd")))
 print(type([1, 2].__add__([3, 4])))
 
