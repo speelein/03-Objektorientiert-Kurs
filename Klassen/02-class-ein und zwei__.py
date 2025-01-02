@@ -1,9 +1,7 @@
 """
 Das Problem Underscore
 
-Zugriff auf:
-_ 
-__ 
+Zugriff auf
 
 """
 
@@ -13,8 +11,10 @@ class Archer:
     mana = 0
     # es wird jetzt diese Funktion eingefuegt
     # printet aber nur eigenartig den Text ich bin.....
+
     def walk(self):
         print(f'ich bin {self}und laufe')
+
 
 print(Archer.hp)
 print(Archer.__dict__)
