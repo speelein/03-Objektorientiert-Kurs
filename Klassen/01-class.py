@@ -20,8 +20,9 @@ archer1 = Archer()
 print(archer1.__dict__)  # Output: {}
 
 # Call the walk method
-archer1.walk()  # Output: ich bin <__main__.Archer object at 0x...> und laufe
+# archer1.walk()  # Output: ich bin <__main__.Archer object at 0x...> und laufe
 
 # Print the class dictionary
-print(Archer.__dict__)
+# print(Archer.__dict__)
 print(type(Archer.__dict__))
+print(type(archer1.__dict__))
