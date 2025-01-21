@@ -3,7 +3,8 @@ class Archer:
     A class representing an Archer with hp and mana attributes and a walk method.
     """
     hp = 100
-    mana = 0
+    mana = 50
+    dt=10
 
     def walk(self):
         print(f'ich bin {self} und laufe')
@@ -11,7 +12,7 @@ class Archer:
 # Access class attributes
 print(Archer.hp)  # Output: 100
 print(Archer.mana)  # Output: 0
-
+print(Archer.dt)  # Output: 0
 # Create an instance of Archer
 archer1 = Archer()
 
