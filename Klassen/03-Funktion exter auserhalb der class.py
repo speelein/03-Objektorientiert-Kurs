@@ -7,7 +7,7 @@ class Archer:
     # printet aber nur eigenartig den Text ich bin.....
     def walk(self):
         print(f'ich bin {self} und laufe')
-hp+20
+hp =  +20
 print(Archer.mana)
 print(Archer.__dict__)
 print(type(Archer.__dict__))
